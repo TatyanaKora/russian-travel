@@ -1,0 +1,25 @@
+.cover {
+  margin: 92px auto;
+  padding: 0;
+  width: calc(100% - 2*48px);
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    margin: 92px auto;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cover {
+    margin: 66px auto;
+  }
+}
