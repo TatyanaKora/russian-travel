@@ -6,6 +6,5 @@
   grid-template-columns: repeat(2, max-content);
   justify-content: center;
   align-content: end;
-  list-style-type: none;
   gap: 18px;
 }

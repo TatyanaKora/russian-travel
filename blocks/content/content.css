@@ -2,7 +2,6 @@
    display: grid;
    gap: 92px;
    margin-top: 56px;
-   overflow-x: hidden;
 }
 
 @media screen and (max-width: 1024px) {
@@ -17,19 +16,7 @@
    }
 }
 
-@media screen and (max-width: 576px) {
-   .content {
-      gap: 84px;
-      margin-top: 40px;
-   }
-}
-
 @media screen and (max-width: 425px) {
-   .content {
-   }
-}
-
-@media screen and (max-width: 320px) {
    .content {
       gap: 64px;
       margin-top: 48px;

@@ -1,14 +1,18 @@
 .footer__items {
     margin: 0;
+	padding: 0;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-	list-style: none;
+    list-style: none;
+	flex-wrap: wrap;
+	column-gap: 18px;
 }
 @media screen and (max-width: 768px) {
     .footer__items {
-        flex-direction: column;
-        justify-items: flex-start;
-        margin-bottom: 48px;
+      flex-direction: column;
+	  align-content: flex-start;
+	  justify-content: left;
+	  flex-wrap: wrap;
+	  row-gap: 32px;
     }
 }

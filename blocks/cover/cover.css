@@ -1,5 +1,5 @@
 .cover {
-  margin: 92px auto;
+  margin: 0;
   padding: 0;
   width: calc(100% - 2*48px);
   display: flex;
@@ -9,17 +9,5 @@
 @media screen and (max-width: 1024px) {
   .cover {
     width: 100%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .cover {
-    margin: 92px auto;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .cover {
-    margin: 66px auto;
   }
 }
