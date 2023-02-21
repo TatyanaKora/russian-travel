@@ -1,6 +1,8 @@
 .content {
    display: grid;
    gap: 92px;
+   margin: 0 auto;
+   padding: 0;
    margin-top: 56px;
 }
 

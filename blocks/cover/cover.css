@@ -1,9 +1,7 @@
 .cover {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
-  width: calc(100% - 2*48px);
-  display: flex;
-  flex-direction: column;
+  width: 92.5%;
 }
 
 @media screen and (max-width: 1024px) {
@@ -11,3 +9,4 @@
     width: 100%;
   }
 }
+

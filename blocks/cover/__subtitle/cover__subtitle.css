@@ -6,12 +6,11 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 122%;
   text-align: center;
-  align-items: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 425px) {
   .cover__subtitle {
     max-width: 288px;
     font-size: 14px;
