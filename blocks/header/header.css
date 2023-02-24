@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: flex-end;
   max-width: 1184px;
-  margin: 28px auto 58px;
+  margin: 28px auto 56px;
   padding: 0;
 }
 
@@ -11,7 +11,7 @@
 @media screen and (max-width: 1024px) {
   .header {
     max-width: 928px;
-    margin-top: 24px;
+    margin-bottom: 48px;
   }
 }
 
@@ -24,6 +24,5 @@
   .header {
     margin-top: 16px;
 	max-width: 288px;
-	align-items: center;
   }
 }
